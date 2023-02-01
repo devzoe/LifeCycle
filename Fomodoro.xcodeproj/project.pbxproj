@@ -13,6 +13,14 @@
 		2F1B716B293628430043EC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1B7169293628430043EC4E /* Main.storyboard */; };
 		2F1B716D293628440043EC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1B716C293628440043EC4E /* Assets.xcassets */; };
 		2F1B7170293628440043EC4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1B716E293628440043EC4E /* LaunchScreen.storyboard */; };
+		2F1B717A293629440043EC4E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B7179293629440043EC4E /* SettingViewController.swift */; };
+		2F1B717C293629550043EC4E /* TimeCountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B717B293629550043EC4E /* TimeCountViewController.swift */; };
+		2F1B717E293863850043EC4E /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B717D293863850043EC4E /* TimerViewController.swift */; };
+		2F1B7183293A0DB00043EC4E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B7182293A0DB00043EC4E /* PageViewController.swift */; };
+		2F1B7185293A2ABE0043EC4E /* KDCircularProgressGlowMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B7184293A2ABE0043EC4E /* KDCircularProgressGlowMode.swift */; };
+		2F424310293AAC3D00873193 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F42430F293AAC3D00873193 /* Onboarding.storyboard */; };
+		2F424312293AAD7B00873193 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F424311293AAD7B00873193 /* Storage.swift */; };
+		2F424314293AAE2C00873193 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F424313293AAE2C00873193 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		2F1B716C293628440043EC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F1B716F293628440043EC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F1B7171293628440043EC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1B7179293629440043EC4E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2F1B717B293629550043EC4E /* TimeCountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCountViewController.swift; sourceTree = "<group>"; };
+		2F1B717D293863850043EC4E /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		2F1B7182293A0DB00043EC4E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		2F1B7184293A2ABE0043EC4E /* KDCircularProgressGlowMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDCircularProgressGlowMode.swift; sourceTree = "<group>"; };
+		2F42430F293AAC3D00873193 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		2F424311293AAD7B00873193 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		2F424313293AAE2C00873193 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		2F1B7162293628430043EC4E /* Fomodoro */ = {
 			isa = PBXGroup;
 			children = (
+				2F1B7181293878710043EC4E /* PageView */,
 				2F1B7163293628430043EC4E /* AppDelegate.swift */,
+				2F424311293AAD7B00873193 /* Storage.swift */,
 				2F1B7165293628430043EC4E /* SceneDelegate.swift */,
 				2F1B7167293628430043EC4E /* ViewController.swift */,
+				2F424313293AAE2C00873193 /* OnboardingViewController.swift */,
+				2F1B7184293A2ABE0043EC4E /* KDCircularProgressGlowMode.swift */,
 				2F1B7169293628430043EC4E /* Main.storyboard */,
+				2F42430F293AAC3D00873193 /* Onboarding.storyboard */,
 				2F1B716C293628440043EC4E /* Assets.xcassets */,
 				2F1B716E293628440043EC4E /* LaunchScreen.storyboard */,
 				2F1B7171293628440043EC4E /* Info.plist */,
 			);
 			path = Fomodoro;
+			sourceTree = "<group>";
+		};
+		2F1B7181293878710043EC4E /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				2F1B717D293863850043EC4E /* TimerViewController.swift */,
+				2F1B717B293629550043EC4E /* TimeCountViewController.swift */,
+				2F1B7179293629440043EC4E /* SettingViewController.swift */,
+				2F1B7182293A0DB00043EC4E /* PageViewController.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +160,7 @@
 				2F1B7170293628440043EC4E /* LaunchScreen.storyboard in Resources */,
 				2F1B716D293628440043EC4E /* Assets.xcassets in Resources */,
 				2F1B716B293628430043EC4E /* Main.storyboard in Resources */,
+				2F424310293AAC3D00873193 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1B717C293629550043EC4E /* TimeCountViewController.swift in Sources */,
+				2F1B7183293A0DB00043EC4E /* PageViewController.swift in Sources */,
 				2F1B7168293628430043EC4E /* ViewController.swift in Sources */,
 				2F1B7164293628430043EC4E /* AppDelegate.swift in Sources */,
+				2F1B7185293A2ABE0043EC4E /* KDCircularProgressGlowMode.swift in Sources */,
+				2F424312293AAD7B00873193 /* Storage.swift in Sources */,
+				2F1B717E293863850043EC4E /* TimerViewController.swift in Sources */,
+				2F424314293AAE2C00873193 /* OnboardingViewController.swift in Sources */,
 				2F1B7166293628430043EC4E /* SceneDelegate.swift in Sources */,
+				2F1B717A293629440043EC4E /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
